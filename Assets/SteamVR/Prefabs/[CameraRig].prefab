@@ -186,16 +186,16 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 146900}
-  m_LocalRotation: {x: 0.19690336, y: 0.6791384, z: -0.19690336, w: 0.6791385}
-  m_LocalPosition: {x: 83.95, y: 12.06, z: 371.3}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.0015258789, y: 5.580908, z: -8.8004875}
+  m_LocalScale: {x: 0.77856654, y: 0.77856654, z: 0.77856654}
   m_Children:
   - {fileID: 458974}
   - {fileID: 402434}
   - {fileID: 408470}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 32.337, y: 90.00001, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &439042
 Transform:
   m_ObjectHideFlags: 1
@@ -259,34 +259,34 @@ Camera:
   serializedVersion: 2
   m_ClearFlags: 4
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0.019607844}
-  m_projectionMatrixMode: 1
+  m_projectionMatrixMode: 2
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 50
+  m_FocalLength: 20.78461
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
     y: 0
     width: 1
     height: 1
-  near clip plane: 0
+  near clip plane: 0.01
   far clip plane: 1
-  field of view: 60
-  orthographic: 1
+  field of view: 60.000004
+  orthographic: 0
   orthographic size: 1
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 4294967295
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
   m_TargetEye: 3
-  m_HDR: 0
+  m_HDR: 1
   m_AllowMSAA: 1
   m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
-  m_OcclusionCulling: 0
+  m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
 --- !u!20 &2082592
@@ -322,7 +322,7 @@ Camera:
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
   m_TargetEye: 3
-  m_HDR: 0
+  m_HDR: 1
   m_AllowMSAA: 1
   m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
@@ -472,7 +472,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49a86c1078ce4314b9c4224560e031b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vrcam: {fileID: 0}
+  vrcam: {fileID: 11411836}
 --- !u!114 &11463128
 MonoBehaviour:
   m_ObjectHideFlags: 1
